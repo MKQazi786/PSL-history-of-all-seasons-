@@ -1,0 +1,110 @@
+.body{
+   background-color: lightseagreen;
+}
+.header {
+   display: flex;
+   background-color: rgb(60, 52, 52);
+   justify-content: space-between;
+   padding: 0.7em;
+   margin-bottom: 0.5em
+}
+
+
+.nav{
+   background-color: darkgreen;
+}
+
+
+
+.ul{
+   list-style-type: none;
+   display:flex ;
+   column-gap:10px;
+   padding-right: 1em;
+   padding-left: 1em;
+   height: 1.5em;
+}
+
+.ul li{
+   padding: 1px;
+   background-color:rgb(60, 52, 52);
+   font-size: 20px;
+   color: lightgreen;
+   border: 1px solid grey;
+}
+
+.logo1{
+   display: flex;
+   height: 3.5em;  
+}
+
+.banner{
+   width: 940px;
+   height: 400px;
+   padding: 1em;
+   padding-bottom: 0;
+   
+}
+
+.content{
+   font-family:Arial, Helvetica, sans-serif;
+   color: green;
+   background-color: hsl(0, 10%, 14%);
+   padding-bottom: 0.1em;
+}
+
+#paragraph{
+   display: flex;
+   text-transform: capitalize;
+   margin: 0 1.1em;
+   padding: 0;
+   text-decoration: underline;
+}
+
+#heading{
+   margin: 0em 0.7em;
+   text-decoration: underline;
+   padding-bottom: 0.2em;
+}
+.ul2{
+   display: flex;
+   list-style-type: upper-roman;
+   column-gap: 2em;
+   margin: 0 2em;
+   padding: 0;
+   text-decoration: underline;
+   text-transform: capitalize;
+}
+
+.article{
+   display: flex;
+   margin:0px ;
+   margin-top: 0.5em;
+   background-color: rgb(60, 52, 52);
+   justify-content: space-around;
+   flex-wrap: wrap;
+}
+
+#figure{
+   background-color: grey ;
+   border: 2px solid green;
+   margin: 1em;
+   color: lightgreen;
+}
+
+#first{
+   width: 14em;
+   height: 7em;
+   padding: 0.1em;
+   padding-bottom: 0px;
+}
+
+.footer{
+   margin-top: 0.5em;
+   display: flex;
+   color: lightgreen;
+   text-transform: capitalize;
+   text-decoration: underline;
+   justify-content: center;
+   background-color: rgb(60, 52, 52);
+}
